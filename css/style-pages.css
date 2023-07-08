@@ -1,0 +1,32 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-stew {
+    width: 800px;
+    height: auto;
+}
+
+.image.stew {
+    text-align: center;
+}
+
+.header.stew-recipe,
+.header.stew-des,
+.header.stew-ing,
+.header.stew-st {
+    border: 2px solid darkred;
+    background-color: rgba(255, 0, 0, 0.308);
+}   
+
+.container.source {
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    background-color: rgba(255, 255, 0, 0.11);
+}

@@ -1,0 +1,21 @@
+.header.main-page,
+.img.yor-gif,
+.list.other-pages {
+    text-align: center;
+}
+
+
+.list.other-pages {
+    list-style: none;
+    font-size: 22px;
+}
+
+.list.border {
+    border: 2px solid darkgreen;
+    background-color: rgba(0, 255, 0, 0.219);
+}
+
+.header.main-page {
+    border: 2px solid darkgreen;
+    background-color: rgba(0, 255, 0, 0.24);
+}
