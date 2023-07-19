@@ -1,3 +1,4 @@
+/* common code for all recipes */
 body {
     font-family:'Courier New', Courier, monospace;
 }
@@ -7,16 +8,26 @@ h1 {
     font-size: 40px;
 }
 
-.img-stew {
+/* image size for pasta and stew*/
+.img-stew,
+.img-pasta {
     width: 800px;
     height: auto;
 }
 
-.image.stew {
+.img-rice {
+    width: 400px;
+    height: auto;
+}
+
+/* used div for center the image in the pages */
+.image.stew,
+.image.pasta,
+.image.rice {
     text-align: center;
 }
 
-.header.stew-recipe,
+/* color and border for stew recipe */
 .header.stew-des,
 .header.stew-ing,
 .header.stew-st {
@@ -24,9 +35,30 @@ h1 {
     background-color: rgba(255, 0, 0, 0.308);
 }   
 
+/* css style for source code */
 .container.source {
     border: 2px solid black;
     text-align: center;
     width: 400px;
     background-color: rgba(255, 255, 0, 0.11);
+}
+
+/* pasta header style */
+.header.pasta-des,
+.header.pasta-ing,
+.header.pasta-st {
+    border: 2px solid darkorange;
+    background-color: rgba(253, 135, 0, 0.11);
+}
+
+.header.chicken,
+.header.pasta-st2 {
+    color: orange;
+}
+
+.header.rice-des,
+.header.rice-ing,
+.header.rice-st {
+    border: 2px solid darkgreen;
+    background-color: rgba(100, 200, 0, 0.11);
 }
