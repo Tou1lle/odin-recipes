@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.img.yor-gif {
+    margin: 20px;
+}
+
 
 .list.other-pages {
     list-style: none;
@@ -13,9 +17,12 @@
 .list.border {
     border: 2px solid darkgreen;
     background-color: rgba(0, 255, 0, 0.219);
+    width: 700px;
+    margin: auto;
 }
 
 .header.main-page {
     border: 2px solid darkgreen;
     background-color: rgba(0, 255, 0, 0.24);
+    padding: 20px;
 }
